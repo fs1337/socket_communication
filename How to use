@@ -1,0 +1,9 @@
+There are two processes in my project, we use socket to send and receive the characters got from the input. 
+Just for convenience, I use my own computer to create two sockets.
+Executing steps for client.c:
+1 open one terminal, run: “gcc client.c –o client.out”
+2 execute the object file for client.c: “./client.out 127.0.0.1”
+Notes: for the second step, please regard the first argument as your server’s ip address.
+Executing steps for server.c:
+1 open the other terminal or open a terminal on the other computer, run: “gcc server.c -o server.out”
+2 execute the object file for server.c: “./server.out”
